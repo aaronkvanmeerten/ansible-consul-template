@@ -6,7 +6,7 @@ consul_template_release: "consul-template_{{ consul_template_version }}_linux_{{
 consul_template_archive_file: "{{ consul_template_release }}.zip"
 consul_template_staging_area: "/tmp"
 #consul_template_download_url: "https://releases.hashicorp.com/consul-template/{{ consul_template_version }}/{{ consul_template_archive_file }}"
-consul_template_download_url: https://github.com/sawall/consul-template/releases/download/v0.1.0/consul-template_linux_amd64.zip
+consul_template_download_url: https://github.com/sawall/consul-template/releases/download/v0.1.0/consul-template_0.30.0_linux_amd64.zip
 consul_template_binary: consul-template
 consul_template_home: /opt/consul-template
 consul_template_use_config_dir: false
